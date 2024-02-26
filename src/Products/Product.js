@@ -5,7 +5,7 @@ export const men = [
         name: 'men',
         alt: 'sfg',
         picture: grave,
-        link: '',
+        link: 'facebook.com',
     },
     {
         name: 'men',

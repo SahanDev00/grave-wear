@@ -25,9 +25,9 @@ const SearchResults = ({ products }) => {
                                 <img src={product.picture} alt={product.alt} className='p-2 mx-3 w-[250px] md:h-[240px] h-[210px] lg:h-[260px] rounded-xl my-1' />
                                 <p className='mx-auto md:text-lg mb-2'>{product.name}</p>
                                 <div>
-                                    <button className='bg-green-300 md:w-[90px] w-[80px] md:h-8 h-6 rounded-full mb-5 text-sm hover:scale-105 hover:drop-shadow-xl duration-200'>
+                                    <a href={product.link} className='bg-green-300 md:w-[90px] px-2 py-1 w-[80px] md:h-8 h-6 rounded-full mb-5 text-sm hover:scale-105 hover:drop-shadow-xl duration-200'>
                                         Buy Now
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             
