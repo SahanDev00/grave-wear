@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../Images/Grave_nav.jpg';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
@@ -11,6 +11,22 @@ const Navbar = () => {
     };
 
     const [nav, setNav] = useState(false);
+    const navRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (navRef.current && !navRef.current.contains(event.target)) {
+                setNav(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [navRef]);
+
     const handleNav = () => {
         setNav(!nav);
     };
@@ -63,7 +79,7 @@ const Navbar = () => {
                 {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
             </div>
 
-            <div className={nav ? ' md:hidden fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-300 ease-in-out duration-500  z-10' : 'fixed left-[-100%]'}>
+            <div ref={navRef} className={nav ? ' md:hidden fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-300 ease-in-out duration-500  z-10' : 'fixed left-[-100%]'}>
             <img src={logo} alt="grave" className='p-1 ml-5 md:ml-10 cursor-pointer w-[120px] '/>
             <ul className='flex flex-col text-black font-bold font-poppins md:mr-6 px-10 space-x-3 md:space-x-5 my-auto'>
                 <NavLink
