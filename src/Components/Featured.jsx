@@ -42,18 +42,18 @@ const Featured = () => {
 
     return (
         <div className=' w-full h-[100%] my-10'>
-            <h1 className='font-bold flex items-center mx-auto drop-shadow-sm justify-center text-2xl '>Featured</h1>
+            <h1 className='font-bold flex items-center mx-auto drop-shadow-sm justify-center text-2xl font-poppins'>Featured</h1>
             <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-5 gap-4 ml-2 sm:ml-0 my-9'>
                 {Products.map((product) => (
-                    <div key={product.name} className='flex flex-col  items-center w-[210px] h-[360px] sm:w-[190px] sm:h-[350px] md:w-[230px] md:h-[360px] lg:w-[280px] lg:h-[380px] xl:w-[250px] xl:h-[390px] rounded-lg mx-2 md:mx-5 my-5 md:my-2 border border-gray-300 hover:scale-105 duration-300'>
+                    <div key={product.name} className='flex flex-col items-center w-[93%] h-[95%] md:w-[230px] md:h-[360px] lg:w-[280px] lg:h-[380px] xl:w-[250px] xl:h-[390px] rounded-lg mx-2 md:mx-5 my-5 md:my-2 border border-gray-300 hover:scale-105 duration-300'>
                         <a href={product.link}>
-                            <img src={product.picture} alt={product.alt} className='p-2 mx-3 w-[250px] md:h-[240px] h-[210px] lg:h-[260px] rounded-xl my-1 object-contain'/>
+                            <img src={product.picture} alt={product.alt} className='p-2 mx-3 w-[90%] md:w-[210px] md:h-[240px] h-[180px] lg:h-[260px] rounded-xl my-1 object-contain'/>
                         </a>
                         <div>
-                            <h1 className='mx-auto text-sm px-2 md:px-4 h-[80px] md:h-[60px]'>{product.name}</h1>
+                            <h1 className='mx-auto text-xs sm:text-sm px-2 sm:px-4 h-[70px] sm:h-[100px] md:h-[60px] font-poppins'>{product.name}</h1>
                         </div>
                         <div className=' md:py-2 lg:pt-3'>
-                            <a href={product.link} className='flex items-center justify-center  bg-green-300 md:w-[90px] px-2  w-[90px] md:h-8 h-7 rounded-full  text-sm hover:scale-105 hover:drop-shadow-xl duration-200'>
+                            <a href={product.link} className='flex items-center justify-center  bg-green-300 md:w-[90px] px-2  sm:w-[90px] md:h-8 sm:h-7 w-[70px] h-5 rounded-full text-xs sm:text-sm hover:scale-105 hover:drop-shadow-xl duration-200 font-poppins'>
                                 Buy Now
                             </a>
                         </div>

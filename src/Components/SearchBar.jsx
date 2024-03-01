@@ -22,7 +22,7 @@ const SearchBar = ({ products }) => {
                 placeholder="Search for a product..."
                 value={searchQuery}
                 onChange={handleChange}
-                className='rounded-lg w-[200px] xl:w-[300px] h-7 pl-4 pb-1 border border-black relative z-10'
+                className='rounded-lg w-[200px] xl:w-[300px] h-7 pl-4 border border-black relative z-10 font-poppins'
             />
             <button className='ml-3 size-5 mt-1 cursor-pointer relative z-10 hover:scale-105 duration-300 ' type="submit"> <FaSearch/> </button>
         </form>
