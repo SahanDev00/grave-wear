@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../Images/Grave_nav.jpg';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
-
 const Navbar = () => {
-    const [activeLink, setActiveLink] = useState('Home');
+    const location = useLocation();
 
-    const handleLinkClick = (link) => {
-        setActiveLink(link);
+    const isActive = (path) => {
+        return location.pathname === path;
     };
 
     const [nav, setNav] = useState(false);
@@ -16,54 +15,45 @@ const Navbar = () => {
         setNav(!nav);
     };
 
-    
-
     return ( 
         <div className='flex justify-between w-full h-[70px] bg-gray-300 absolute z-10 top-0'>
             <img src={logo} alt="grave" className='p-1 ml-5 md:ml-10 cursor-pointer'/>
-            
             
             <ul className='hidden md:flex text-black font-bold md:mr-6 px-10 space-x-3 md:space-x-5 my-auto '>
                 <NavLink
                     to="/"
                     exact
-                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${activeLink === 'Home' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Home')}
+                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${isActive('/') ? 'underline' : ''}`}
                 >
                     Home
                 </NavLink>
                 <NavLink
                     to="/men"
-                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${activeLink === 'Men' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Men')}
+                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${isActive('/men') ? 'underline' : ''}`}
                 >
                     Men
                 </NavLink>
                 <NavLink
                     to="/women"
-                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${activeLink === 'Women' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Women')}
+                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${isActive('/women') ? 'underline' : ''}`}
                 >
                     Women
                 </NavLink>
                 <NavLink
                     to="/anime"
-                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${activeLink === 'Anime' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Anime')}
+                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${isActive('/anime') ? 'underline' : ''}`}
                 >
                     Anime
                 </NavLink>
                 <NavLink
                     to="/gothic"
-                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${activeLink === 'Gothic' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Gothic')}
+                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${isActive('/gothic') ? 'underline' : ''}`}
                 >
                     Gothic
                 </NavLink>
                 <NavLink
                     to="/accessories"
-                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${activeLink === 'Accessories' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Accessories')}
+                    className={`text-sm md:text-lg cursor-pointer uppercase hover:scale-105 duration-800 ease-in-out ${isActive('/accessories') ? 'underline' : ''}`}
                 >
                     Accessories
                 </NavLink>
@@ -79,43 +69,37 @@ const Navbar = () => {
                 <NavLink
                     to="/"
                     exact
-                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${activeLink === 'Home' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Home')}
+                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${isActive('/') ? 'underline' : ''}`}
                 >
                     Home
                 </NavLink>
                 <NavLink
                     to="/men"
-                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${activeLink === 'Men' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Men')}
+                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${isActive('/men') ? 'underline' : ''}`}
                 >
                     Men
                 </NavLink>
                 <NavLink
                     to="/women"
-                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${activeLink === 'Women' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Women')}
+                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${isActive('/women') ? 'underline' : ''}`}
                 >
                     Women
                 </NavLink>
                 <NavLink
                     to="/anime"
-                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${activeLink === 'Anime' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Anime')}
+                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${isActive('/anime') ? 'underline' : ''}`}
                 >
                     Anime
                 </NavLink>
                 <NavLink
                     to="/gothic"
-                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${activeLink === 'Gothic' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Gothic')}
+                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${isActive('/gothic') ? 'underline' : ''}`}
                 >
                     Gothic
                 </NavLink>
                 <NavLink
                     to="/accessories"
-                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${activeLink === 'Accessories' ? 'underline' : ''}`}
-                    onClick={() => handleLinkClick('Accessories')}
+                    className={` text-lg ml-3 my-6 hover:scale-105 cursor-pointer ${isActive('/accessories') ? 'underline' : ''}`}
                 >
                     Accessories
                 </NavLink>

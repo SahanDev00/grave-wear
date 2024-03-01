@@ -1,11 +1,10 @@
-import React from 'react'
-import logo from '../Images/Grave_nav.jpg'
+import React from 'react';
+import logo from '../Images/footerpic.png';
 import {
-    FaFacebookSquare,
     FaInstagram,
     FaTiktok,
     FaPinterest
-} from 'react-icons/fa'
+} from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -13,21 +12,26 @@ const Footer = () => {
             <div className='w-full h-full bg-gray-400'>
                 <div className='w-full h-full grid grid-cols-3'>
                     <div className='flex items-center ml-10 justify-center'>
-                        <img src={logo} alt="" className='md:w-[120px] md:h-[60px] w-[100px] h-[50px]' />
+                        <img src={logo} alt="" className='md:w-[120px] md:h-[40px] w-[100px] h-[35px]' />
                     </div>
                     <div className='flex items-center justify-center'>
-                        <h1 className='font-bold drop-shadow-xl text-sm md:text-xl'>Dumidus86@gmail.com</h1>
+                        <h1 className='font-bold drop-shadow-xl text-sm md:text-xl'>Gravestore666@gmail.com</h1>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <FaFacebookSquare size={25} className='cursor-pointer mx-1 md:mx-3'/>
-                        <FaInstagram size={25} className='cursor-pointer mx-1 md:mx-3'/>
-                        <FaTiktok size={25} className='cursor-pointer mx-1 md:mx-3'/>
-                        <FaPinterest size={25} className='cursor-pointer mx-1 md:mx-3'/>
+                        <a href="https://www.instagram.com/grave.wear">
+                            <FaInstagram size={25} className='cursor-pointer mx-1 md:mx-3'/>
+                        </a>
+                        <a href="https://www.tiktok.com/@grave.wear">
+                            <FaTiktok size={25} className='cursor-pointer mx-1 md:mx-3'/>
+                        </a>
+                        <a href="https://pin.it/wOHFyP3Gc">
+                            <FaPinterest size={25} className='cursor-pointer mx-1 md:mx-3'/>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Footer
+export default Footer;
