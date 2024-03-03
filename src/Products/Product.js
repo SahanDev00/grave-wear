@@ -120,7 +120,121 @@ export const men = [
         alt: 'Shorts',
         picture: shorts,
         link: 'https://amzn.to/4bMw6bP',
-    }
+    },
+    {
+        name: 'Men’s T-Shirts Techwear Streetwear Shirts for Men',
+        alt: 'techware baggy oversized',
+        picture: 'https://m.media-amazon.com/images/I/51-7ZI2pDiL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3V1phgg',
+    },
+    {
+        name: 'Aelfric Eden Mens Joggers Pants Casual Jogging Cool Pant',
+        alt: 'cargo techwear',
+        picture: 'https://m.media-amazon.com/images/I/51WDSV88kPL._AC_SX679_.jpg',
+        link: 'https://amzn.to/431nWbk',
+    },
+    {
+        name: 'Niepce Inc Japanese Streetwear Windbreaker Jackets for Men',
+        alt: 'hoodie techwear',
+        picture: 'https://m.media-amazon.com/images/I/61bayuWMebL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3V2QNds',
+    },
+    {
+        name: 'Hoodies for Men Hoodie Pullover Novelty Sweatshirt',
+        alt: 'hoodie',
+        picture: 'https://m.media-amazon.com/images/I/71x+WUT1EOL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3T4jaVY',
+    },
+    {
+        name: 'Mens Cargo Pants Techwear Sweatpants with Pockets',
+        alt: 'cargo techware',
+        picture: 'https://m.media-amazon.com/images/I/51fHZTBkdOL._AC_SX679_.jpg',
+        link: 'https://amzn.to/48GUbxE',
+    },
+    {
+        name: "Men's Punk Rock Street, Reflective Technical Pants",
+        alt: 'cargo techwear',
+        picture: 'https://m.media-amazon.com/images/I/51XgQ1PAETS._AC_SX569_.jpg',
+        link: 'https://amzn.to/48DTYLJ',
+    },
+    {
+        name: 'Ahico Mens Sneakers High Top Shoes Casual Shoe Vogue Men',
+        alt: 'shoes techwear',
+        picture: 'https://m.media-amazon.com/images/I/41HUm2YO-yL._AC_.jpg',
+        link: 'https://amzn.to/49yHS83',
+    },
+    {
+        name: "MOKEWEN Men's Streetwear Novelty Cargo Ankle Pants",
+        alt: 'techwear cargo',
+        picture: 'https://m.media-amazon.com/images/I/71I3b3g1iaL._AC_SY879_.jpg',
+        link: 'https://amzn.to/3T3emA3',
+    },
+    {
+        name: "Men's Joggers Punk Cargo Baggy Techwear Streetwear Pants",
+        alt: 'techwear cargo pants',
+        picture: 'https://m.media-amazon.com/images/I/61vnILvWNoL._AC_SY879_.jpg',
+        link: 'https://amzn.to/3P4tLz6',
+    },
+    {
+        name: "XYXIONGMAO Men's White Pants Techwear Sweatpants Cargo for Men",
+        alt: 'techwear cargo',
+        picture: 'https://m.media-amazon.com/images/I/61Y0YveGksL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3uYk1Q7',
+    },
+    {
+        name: 'Gildan Adult Ultra Cotton Long Sleeve T-Shirt',
+        alt: 'long sleeve tshirt',
+        picture: 'https://m.media-amazon.com/images/I/715bY3uEYgL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3uUENQB',
+    },
+    {
+        name: "Russell Athletic Men's Cotton Sleeveless Muscle T-shirt",
+        alt: 'sleeveless tshirt',
+        picture: 'https://m.media-amazon.com/images/I/71riW1CVmzL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3P5xDQn',
+    },
+    {
+        name: "Men's Crewneck Sweatshirts Casual Pullover Shirt",
+        alt: 'long sleeve tshirt',
+        picture: 'https://m.media-amazon.com/images/I/71DRFI1qYFL._AC_SY879_.jpg',
+        link: 'https://amzn.to/3TjOdhN',
+    },
+    {
+        name: 'JMIERR Mens Cotton Casual Long Sleeve Business Dress Shirts',
+        alt: 'business dress formal',
+        picture: 'https://m.media-amazon.com/images/I/613XL7f-hGL._AC_SY879_.jpg',
+        link: 'https://amzn.to/3UXUTDL',
+    },
+    {
+        name: "MFCT Men's Techwear Waterproof Windbreaker with Funnel Hoodie",
+        alt: 'hoodie',
+        picture: 'https://m.media-amazon.com/images/I/71gA4nBlKTL._AC_SX679_.jpg',
+        link: 'https://amzn.to/4a0vZrn',
+    },
+    {
+        name: 'NICGID Sling Bag Backpack Crossbody Bags for Men Women',
+        alt: 'backpack',
+        picture: 'https://m.media-amazon.com/images/I/91AthIG5XDL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3wvwmvp',
+    },
+    {
+        name: "GORGLITTER Men's Letter Graphic Print T Shirts Tee Tops",
+        alt: 'tshirt oversized',
+        picture: 'https://m.media-amazon.com/images/I/71XihYZ4mqL._AC_SY741_.jpg',
+        link: 'https://amzn.to/3P74sfQ',
+    },
+    {
+        name: 'YawYews Mens Short Sleeve Tshirts Oversize Casual Tees',
+        alt: 'oversized tshirt',
+        picture: 'https://m.media-amazon.com/images/I/61RSgnwX30L._AC_SX679_.jpg',
+        link: 'https://amzn.to/3P6OYZ4',
+    },
+    {
+        name: "GORGLITTER Men's Graphic Print Short Sleeve T Shirt Casual ",
+        alt: 'oversized tshirt',
+        picture: 'https://m.media-amazon.com/images/I/61HMraWUz-L._AC_SY879_.jpg',
+        link: 'https://amzn.to/4c2jDRs',
+    },
 ]
 
 export const women = [
@@ -173,7 +287,7 @@ export const women = [
         link: 'https://amzn.to/42XOL0a',
     },
     {
-        name: "KUTUMAI Women's Summer Floral Bodycon Maxi Sleeveless Long Dress",
+        name: "KUTUMAI Women's Summer Sleeveless Long Dress",
         alt: 'frock',
         picture: frock,
         link: 'https://amzn.to/42YFc0M',
@@ -189,7 +303,109 @@ export const women = [
         alt: 'gothic crop top',
         picture: gothtop,
         link: 'https://amzn.to/42Xgzll',
-    }
+    },
+    {
+        name: "MEINVQIAOTI Black Cargo Pants for Women Techwear Casual Black Pants",
+        alt: "goth women cargo techwear",
+        picture: 'https://m.media-amazon.com/images/I/61Nb0ktmEzL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3wKJhtu',
+    },
+    {
+        name: "Ruolai Goth Black Mini Skirt with Chain High Waisted Tennis Skirt",
+        alt: "skirt techwear",
+        picture: 'https://m.media-amazon.com/images/I/51Q6-uNd2JL._AC_SX679_.jpg',
+        link: 'https://amzn.to/48D6tHx',
+    },
+    {
+        name: "Women Wide Sleeve Sweatshirt Top Loose Fit Casual Pullover Crop Top",
+        alt: "long sleeve crop top",
+        picture: 'https://m.media-amazon.com/images/I/613UYzKsapL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3v1zzT2',
+    },
+    {
+        name: "Womens Cat Ear Hoodie Sweatshirt Long Sleeve Sweater Crop Top Hoodies",
+        alt: "women hoodie",
+        picture: 'https://m.media-amazon.com/images/I/51WDuEVVb-L._AC_SX679_.jpg',
+        link: 'https://amzn.to/4bYQczu',
+    },
+    {
+        name: "Women's Gothic Print Long Sleeve Iron Chain Hoodie Sweater Goth Black",
+        alt: "long sleeve crop top",
+        picture: 'https://m.media-amazon.com/images/I/71TCJc7qzUL._AC_SY741_.jpg',
+        link: 'https://amzn.to/3P5Wjbg',
+    },
+    {
+        name: "Harajuku Pants Women Fashion High Waist Straight Pants Black and White",
+        alt: "cargo women techwear pants",
+        picture: 'https://m.media-amazon.com/images/I/51CYeLTaBfL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3T3DHtK',
+    },
+    {
+        name: "Goth Shirt Gothic Shirt Alternative Clothing Goth Long Sleeve Grunge",
+        alt: "long sleeve tshirt girl",
+        picture: 'https://m.media-amazon.com/images/I/51q8KXHYtdL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3Ilbb1P',
+    },
+    {
+        name: "Gothic T Shirt Women Butterfly Print Short Sleeve T Shirt Women",
+        alt: "oversizd tshirt women",
+        picture: 'https://m.media-amazon.com/images/I/61oGZLak0BL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3wFCJwr',
+    },
+    {
+        name: "Plaid Pants for Women Goth Pants Baggy Pants for Women Alt Clothing",
+        alt: "pants women",
+        picture: 'https://m.media-amazon.com/images/I/51OFh1m3NyL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3uRL53x',
+    },
+    {
+        name: "Women's Alt Emo Button Down Shirt Gothic Techwear Dark Clothes Aesthetic",
+        alt: "women techwear",
+        picture: 'https://m.media-amazon.com/images/I/51AO3rgrc+L._AC_SX679_.jpg',
+        link: 'https://amzn.to/3Tllk56',
+    },
+    {
+        name: "TOMETO STAR Goth Crop Top Gothic Y2k Camisole Tops for Women",
+        alt: "sleeveless tshirt women",
+        picture: 'https://m.media-amazon.com/images/I/71+Y+BLkC-L._AC_SX679_.jpg',
+        link: 'https://amzn.to/3wO7jDS',
+    },
+    {
+        name: "PRETTYGARDEN Women's Long Sleeve Casual Crewneck Dress",
+        alt: "office dress women",
+        picture: 'https://m.media-amazon.com/images/I/51LHAbhKwTL._AC_SY879_.jpg',
+        link: 'https://amzn.to/49CMppX',
+    },
+    {
+        name: "Workwear Jumpsuit Summer Black Short Sleeve Gothic Women's Clothes",
+        alt: "women workwear jumpsuit",
+        picture: 'https://m.media-amazon.com/images/I/51Y3bxvG5PL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3wC5kCT',
+    },
+    {
+        name: "Fabric of the Universe Techwear Fashion Women's Crop Hoodie",
+        alt: "women crop hoodie",
+        picture: 'https://m.media-amazon.com/images/I/61oRx-xZYcL._AC_SX679_.jpg',
+        link: 'https://amzn.to/3TkvPWh',
+    },
+    {
+        name: "QYANGG Baggy Parachute Pants for Women Girls Cargo Pants",
+        alt: "white cargo pants",
+        picture: 'https://m.media-amazon.com/images/I/719-shRx6uL._AC_SY741_.jpg',
+        link: 'https://amzn.to/48y5k3W',
+    },
+    {
+        name: "heipeiwa Women's Satin Pants Dress Casual Pants with Pockets",
+        alt: "woman pants",
+        picture: 'https://m.media-amazon.com/images/I/711e5YZ7TqL._AC_SY741_.jpg',
+        link: 'https://amzn.to/3uWNRV8',
+    },
+    {
+        name: "Cargo Pants Women with Pockets High Waist Baggy Casual Techwear",
+        alt: "casual woman pants",
+        picture: 'https://m.media-amazon.com/images/I/51qDwS5cNBL._AC_SY879_.jpg',
+        link: 'https://amzn.to/3P6skA3',
+    },
 ]
 
 export const anime = [
@@ -278,7 +494,7 @@ export const gothic = [
         name: "Gothic Women t-Shirt Women's T-Shirt Clothes Street Summer T-Shirt",
         alt: 'Gothic women tshirt',
         picture: gothicWT,
-        link: 'https://amzn.to/4bZMmGyl',
+        link: 'https://amzn.to/3V2OK9s',
     },
     {
         name: "DSDZ Men's Punk Denim Vest Sleeveless Jean Jackets With Rivets",
